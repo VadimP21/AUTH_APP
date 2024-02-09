@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.conf.urls.static import static
 from django.contrib.auth.views import LoginView, LogoutView, PasswordResetConfirmView
 from django.urls import path, reverse_lazy
 
@@ -16,7 +15,7 @@ from .forms import (
 #     UserForgotPasswordView,
 # )
 
-app_name = "accounts"
+app_name = "account"
 
 urlpatterns = [
     path(
